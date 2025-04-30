@@ -4,8 +4,7 @@ go 1.24.0
 
 require (
 	github.com/PuerkitoBio/goquery v1.10.3
-	github.com/google/uuid v1.6.0
-	github.com/scrapeless-ai/scrapeless-actor-sdk-go v0.0.6
+	github.com/scrapeless-ai/scrapeless-actor-sdk-go v0.0.9
 )
 
 require (

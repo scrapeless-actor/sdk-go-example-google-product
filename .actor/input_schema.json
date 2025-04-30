@@ -4,25 +4,22 @@
   "schemaVersion": 1,
   "properties": {
     "product_id": {
-      "title": "Google Product ID",
+      "title": " Google Product ID",
+      "description": "Parameter defines the product to get results for.",
       "type": "string",
-      "description": "Parameter defines the product to get results for",
-      "editor": "textfield",
-      "prefill": "13760655462333557929"
+      "default": "13760655462333557929"
     },
     "hl": {
       "title": "Language",
-      "type": "string",
       "description": "Parameter defines the language to use for the Google search.",
-      "editor": "textfield",
-      "prefill": "en"
+      "type": "string",
+      "default": "en-sg"
     },
     "gl": {
       "title": "Country",
-      "type": "string",
       "description": "Parameter defines the country to use for the Google search.",
-      "editor": "textfield",
-      "prefill": "us"
+      "type": "string",
+      "default": "us"
     }
   },
   "required": ["product_id"]
